@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "autoprefixer": "^10.4.14",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
@@ -20,8 +21,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "dependencies": {
-    "@tailwindcss/forms": "^0.5.3"
   }
 }
