@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#09090a',
+        background: '#090a',
       },
       gridTemplateRows: {
         7: 'repeat(7, minmax(0, 1fr))',
@@ -17,5 +17,5 @@ module.exports = {
       },
     },
   },
-  // ...
+  plugins: [require('@tailwindcss/forms')]
 }
