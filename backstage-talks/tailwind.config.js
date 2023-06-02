@@ -2,13 +2,9 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  content: ['./src/**/*.{html,js}',
-  './components/**/*.{html,js}',],
+  content: ['./src/**/*.{html,js}'],
   theme: {
     extend: {
-      colors: {
-        background: '#090a',
-      },
       gridTemplateRows: {
         7: 'repeat(7, minmax(0, 1fr))',
       },
