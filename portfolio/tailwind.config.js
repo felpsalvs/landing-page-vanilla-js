@@ -4,6 +4,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'mobile': '375px',    // Adicionado screen para dispositivos móveis (ex: iPhone SE)
+        'tablet': '640px',
+        'laptop': '1024px',
+        'desktop': '1280px',
+      },
       colors: {
         background: '#09090a',
       },
