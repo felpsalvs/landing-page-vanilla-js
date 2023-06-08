@@ -1,3 +1,33 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+body.fixed-nav .site-wrap {
+  transform: scale(1);
+}
+
+body.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background: url(https://source.unsplash.com/GKN6rpDr0EI/960x640) bottom center no-repeat;
+}
+
+li#logo {
+  max-width: 0;
+  overflow: hidden;
+  background: #fff;
+  transition: all 0.5s;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+li#logo a {
+  color:#000;
+}
+
+.fixed-nav li#logo {
+  max-width: 500px;
+}
