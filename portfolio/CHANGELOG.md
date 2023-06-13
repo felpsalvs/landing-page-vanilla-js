@@ -10,6 +10,8 @@
 
 ### Features
 
+* add CHANGELOG ([438f9bd](https://github.com/felpsalvs/vanilla-js-ts/commit/438f9bdc02c20b84d89bd786315fd462333fbf82)), closes [#2](https://github.com/felpsalvs/vanilla-js-ts/issues/2)
+* add editorconfig ([4dec0e6](https://github.com/felpsalvs/vanilla-js-ts/commit/4dec0e65b491f1528ee35abfc79d5eac25f037cf))
 * add function for manipulation ([ee79929](https://github.com/felpsalvs/vanilla-js-ts/commit/ee799299c86dd378faafb8782fecd22ccc6189e6))
 * add header and nav ([1ff36ce](https://github.com/felpsalvs/vanilla-js-ts/commit/1ff36cec33aae7a370d10435e3be54bf3a64553d))
 * add prettier/ eslint ([0b988ca](https://github.com/felpsalvs/vanilla-js-ts/commit/0b988caa28542e44f616b222832bdd782afe4108))
