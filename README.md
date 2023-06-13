@@ -1,13 +1,10 @@
-# Pasta de Projetos - VanillaJS e TypeScript
-
-Esta pasta contém uma coleção de repositórios com aplicações desenvolvidas utilizando VanillaJS (JavaScript puro) e TypeScript. Cada repositório é uma aplicação separada, demonstrando diferentes recursos e funcionalidades.
+# VanillaJS
 
 ## Recursos e Ferramentas
 
 As aplicações nestes repositórios utilizam as seguintes tecnologias, recursos e ferramentas:
 
 - [VanillaJS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [ESLint](https://eslint.org/)
@@ -21,7 +18,7 @@ Cada repositório segue uma estrutura semelhante, contendo os seguintes arquivos
 - `dist/`: Diretório que contém os arquivos de distribuição (versão otimizada para produção).
 - `index.html`: Arquivo HTML principal.
 - `styles.css`: Arquivo CSS personalizado para estilos adicionais.
-- `app.js` ou `app.ts`: Arquivo JavaScript/TypeScript que contém a lógica principal da aplicação.
+- `main.js` ou `app.ts`: Arquivo JavaScript/TypeScript que contém a lógica principal da aplicação.
 - `package.json`: Arquivo de configuração do projeto, contendo as dependências e scripts de desenvolvimento.
 
 ## Executando os Projetos
