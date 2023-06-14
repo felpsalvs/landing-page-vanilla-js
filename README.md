@@ -18,7 +18,7 @@ Cada repositório segue uma estrutura semelhante, contendo os seguintes arquivos
 - `dist/`: Diretório que contém os arquivos de distribuição (versão otimizada para produção).
 - `index.html`: Arquivo HTML principal.
 - `styles.css`: Arquivo CSS personalizado para estilos adicionais.
-- `main.js` ou `app.ts`: Arquivo JavaScript/TypeScript que contém a lógica principal da aplicação.
+- `main.js`: Arquivo JavaScript que contém a lógica principal da aplicação.
 - `package.json`: Arquivo de configuração do projeto, contendo as dependências e scripts de desenvolvimento.
 
 ## Executando os Projetos
@@ -32,7 +32,7 @@ Para executar qualquer um dos projetos presentes neste repositório, siga as ins
 
 ## Contribuindo
 
-Sinta-se à vontade para explorar, clonar ou contribuir com os projetos presentes neste repositório. Se você quiser contribuir, certifique-se de seguir as diretrizes de contribuição especificadas em cada repositório individual.
+Sinta-se à vontade para explorar, clonar ou contribuir com os projetos presentes neste repositório.
 
 ## Licença
 
