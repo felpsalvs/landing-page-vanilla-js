@@ -1,3 +1,9 @@
+#### 0.0.0 (2023-06-14)
+
+##### Build System / Dependencies
+
+*  update changelog (7142630c)
+
 # [0.0.0](https://github.com/felpsalvs/vanilla-js-ts/compare/v1.1.0...v0.0.0) (2023-06-13)
 
 
