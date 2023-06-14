@@ -31,7 +31,8 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog",
+			"update_changelog_on_bump": true
     }
   }
 }
