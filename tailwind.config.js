@@ -1,21 +1,21 @@
 module.exports = {
-  content: [
-    './**/*.{html,js}',
-  ],
-  theme: {
-    extend: {
-      screens: {
-        'mobile': '375px',    // Adicionado screen para dispositivos móveis (ex: iPhone SE)
-        'tablet': '640px',
-        'laptop': '1024px',
-        'desktop': '1280px',
-      },
-      colors: {
-        background: '#09090a',
-      },
-      gridTemplateRows: {
-        7: 'repeat(7, minmax(0, 1fr))',
-      },
-    },
-  },
-}
+	content: ['./**/*.{html,js}'],
+	darkMode: 'class',
+	theme: {
+		container: {
+			center: true,
+			padding: '16px',
+		},
+		extend: {
+			colors: {
+				primary: '#14b8a6',
+				secondary: '#64748b',
+				dark: '#0f172a',
+			},
+			screens: {
+				'2xl': '1320px',
+			},
+		},
+	},
+	plugins: [],
+};
