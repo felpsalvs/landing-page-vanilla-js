@@ -7,9 +7,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Felipe Alves</title>
 		<script>
-			if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)){
+			if (
+				localStorage.theme === 'dark' ||
+				(!('theme' in localStorage) &&
+					window.matchMedia('(prefers-color-scheme: dark)').matches)
+			) {
 				document.documentElement.classList.add('dark');
-			}else{
+			} else {
 				document.documentElement.classList.remove('dark');
 			}
 		</script>
@@ -43,27 +47,49 @@
 							></span>
 						</button>
 
-						<nav class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent">
+						<nav
+							class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent"
+						>
 							<ul class="block lg:flex">
 								<li class="group">
-									<a href="#home" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Home</a>
+									<a
+										href="#home"
+										class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+										>Home</a
+									>
 								</li>
 								<li class="group">
-									<a href="#about" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">About</a>
+									<a
+										href="#about"
+										class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+										>About</a
+									>
 								</li>
 								<li class="group">
-									<a href="#articles" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Articles</a>
+									<a
+										href="#articles"
+										class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+										>Articles</a
+									>
 								</li>
 								<li class="group">
-									<a href="#contact" class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white">Contacts</a>
+									<a
+										href="#contact"
+										class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+										>Contacts</a
+									>
 								</li>
 								<li class="mt-3 flex items-center pl-8 lg:mt-0">
 									<div class="flex">
 										<span class="mr-2 text-sm text-slate-500">light</span>
-										<input type="checkbox" class="hidden" id="dark-toggle"/>
+										<input type="checkbox" class="hidden" id="dark-toggle" />
 										<label for="dark-toggle">
-											<div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
-												<div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
+											<div
+												class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1"
+											>
+												<div
+													class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"
+												></div>
 											</div>
 										</label>
 										<span class="ml-2 text-sm text-slate-500">dark</span>
@@ -80,20 +106,51 @@
 			<div class="container">
 				<div class="flex flex-wrap">
 					<div class="w-full self-center px-4 lg:w-1/2">
-						<h1 class="text-base font-semibold text-primary md:text-xl">felipe alves <span class="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-5xl">mobile developer</span></h1>
-						<h2 class="mb-5 text-lg font-mendium text-secondary lg:text-2xl">tech write & <span class="text-dark dark:text-white">native entusiast</span></h2>
-						<p class="mb-10 font-medium leading-relaxed text-secondary">aqui tem um texto de teste<span class="font-bold text-dark dark:text-white"> teste</span></p>
-						<a href="#" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg">Fale comigo</a>
+						<h1 class="text-base font-semibold text-primary md:text-xl">
+							felipe alves
+							<span
+								class="mt-1 block text-4xl font-bold text-dark dark:text-white lg:text-5xl"
+								>mobile developer</span
+							>
+						</h1>
+						<h2 class="font-mendium mb-5 text-lg text-secondary lg:text-2xl">
+							tech write &
+							<span class="text-dark dark:text-white">native entusiast</span>
+						</h2>
+						<p class="mb-10 font-medium leading-relaxed text-secondary">
+							aqui tem um texto de teste<span
+								class="font-bold text-dark dark:text-white"
+							>
+								teste</span
+							>
+						</p>
+						<a
+							href="#"
+							class="rounded-full bg-primary px-8 py-3 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg"
+							>Fale comigo</a
+						>
 					</div>
 					<div class="w-full self-end px-4 lg:w-1/2">
 						<div class="relative mt-10 lg:right-0 lg:mt-9">
-							<img src="dist/img/felipe.webp" alt="aqui vai uma ilustracao" class="relative z-10 mx-auto max-w-full"/>
-							<span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
-								<svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+							<img
+								src="dist/img/felipe.webp"
+								alt="aqui vai uma ilustracao"
+								class="relative z-10 mx-auto max-w-full"
+							/>
+							<span
+								class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125"
+							>
+								<svg
+									width="400"
+									height="400"
+									viewBox="0 0 200 200"
+									xmlns="http://www.w3.org/2000/svg"
+								>
 									<path
-									fill="#14b8a6"
-									d="M47.4,-51C59.2,-35.6,65.1,-17.8,63.4,-1.7C61.7,14.5,52.6,28.9,40.8,36.6C28.9,44.2,14.5,45,-2,47C-18.4,49,-36.8,52.1,-45.4,44.5C-53.9,36.8,-52.5,18.4,-51.2,1.3C-49.9,-15.8,-48.7,-31.7,-40.2,-47.1C-31.7,-62.4,-15.8,-77.3,1,-78.3C17.8,-79.2,35.6,-66.3,47.4,-51Z"
-									transform="translate(100 100) scale(1.1)"/>
+										fill="#14b8a6"
+										d="M47.4,-51C59.2,-35.6,65.1,-17.8,63.4,-1.7C61.7,14.5,52.6,28.9,40.8,36.6C28.9,44.2,14.5,45,-2,47C-18.4,49,-36.8,52.1,-45.4,44.5C-53.9,36.8,-52.5,18.4,-51.2,1.3C-49.9,-15.8,-48.7,-31.7,-40.2,-47.1C-31.7,-62.4,-15.8,-77.3,1,-78.3C17.8,-79.2,35.6,-66.3,47.4,-51Z"
+										transform="translate(100 100) scale(1.1)"
+									/>
 								</svg>
 							</span>
 						</div>
@@ -102,6 +159,53 @@
 			</div>
 		</section>
 
+		<section id="about" class="pt-36 pb-32 dark:bg-dark">
+			<div class="container">
+				<div class="flex flex-wrap">
+					<div class="mb-10 w-full px-4 lg:w-1/2">
+						<h4 class="mb-3 text-lg font-bold uppercase text-primary">teste 1</h4>
+						<h2 class="mb-5 max-w-md text-3xl font-bold text-dark dark:text-white lg:text-4xl">aqeui vai outro texto</h2>
+						<p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
+							Nulla facilisi. Cras cursus tellus nulla, vel consequat odio
+							consectetur nec. Morbi in ligula dapibus, aliquet ex in, elementum
+							sem. Mauris mollis, risus ut elementum bibendum, arcu lacus
+							dignissim libero, et imperdiet nibh dui vitae massa. Morbi
+							imperdiet turpis ac magna fermentum, hendrerit commodo massa
+							gravida. Nam vel porta nisl. Mauris pretium sollicitudin orci vel
+							pretium. Cras vitae rhoncus felis. Nullam id leo ligula. Fusce
+							volutpat quis quam eget porta. Sed id sem vitae dui ultrices
+							efficitur a ac nulla. Vivamus in velit sed ipsum tempor varius.
+							Cras nec tristique mauris. Proin imperdiet neque dapibus leo
+							accumsan dignissim. Quisque in eleifend lacus, eu sodales neque.
+							Praesent pharetra at dui id feugiat. Nullam malesuada ante ac
+							eleifend ultricies. Etiam quis nunc sagittis, interdum tortor ac,
+							placerat sem. Pellentesque placerat magna ac risus lobortis
+							accumsan. Maecenas efficitur in
+						</p>
+					</div>
+					<div>
+						<h3>teste 3</h3>
+						<p>
+							Nulla facilisi. Cras cursus tellus nulla, vel consequat odio
+							consectetur nec. Morbi in ligula dapibus, aliquet ex in, elementum
+							sem. Mauris mollis, risus ut elementum bibendum, arcu lacus
+							dignissim libero, et imperdiet nibh dui vitae massa. Morbi
+							imperdiet turpis ac magna fermentum, hendrerit commodo massa
+							gravida. Nam vel porta nisl. Mauris pretium sollicitudin orci vel
+							pretium. Cras vitae rhoncus felis. Nullam id leo ligula. Fusce
+							volutpat quis quam eget porta. Sed id sem vitae dui ultrices
+							efficitur a ac nulla. Vivamus in velit sed ipsum tempor varius.
+							Cras nec tristique mauris. Proin imperdiet neque dapibus leo
+							accumsan dignissim. Quisque in eleifend lacus, eu sodales neque.
+							Praesent pharetra at dui id feugiat. Nullam malesuada ante ac
+							eleifend ultricies. Etiam quis nunc sagittis, interdum tortor ac,
+							placerat sem. Pellentesque placerat magna ac risus lobortis
+							accumsan. Maecenas efficitur in
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 	<script src="./dist/js/main.js"></script>
 </html>
