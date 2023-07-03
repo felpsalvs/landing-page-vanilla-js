@@ -25,7 +25,7 @@
 			<div class="container">
 				<div class="relative flex items-center justify-between">
 					<div class="px-4">
-						<a href="#" class="block py-6 text-lg font-bold text-primary"
+						<a href="#home" class="block py-6 text-lg font-bold text-primary"
 							>felipe alves</a
 						>
 					</div>
@@ -48,6 +48,7 @@
 						</button>
 
 						<nav
+							id="nav-menu"
 							class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-indigo-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent"
 						>
 							<ul class="block lg:flex">
@@ -238,7 +239,10 @@
 			</div>
 		</section>
 
-		<section id="portfolio" class="bg-indigo-100 pb-16 pt-36 dark:bg-indigo-800">
+		<section
+			id="portfolio"
+			class="bg-indigo-100 pb-16 pt-36 dark:bg-indigo-800"
+		>
 			<div class="container">
 				<div class="w-full px-4">
 					<div class="mx-auto mb-16 max-w-xl text-center">
@@ -282,19 +286,28 @@
 			</div>
 		</section>
 
-		<section id="clients" class="bg-indigo-800 pt-36 pb-32 dark:bg-indigo-300">
+		<section id="clients" class="bg-indigo-800 pb-32 pt-36 dark:bg-indigo-300">
 			<div class="container">
 				<div class="w-full px-4">
 					<div class="mx-auto mb-16 text-center">
 						<h4 class="mb-2 text-lg font-semibold text-primary">clients</h4>
-						<h2 class="mb-4 text-3xl font-bold text-white dark:text-dark sm:text-4xl lg:text-5xl">Lewis</h2>
-						<p class="text-md font-medium text-secondary md:text-lg">lorem ipsu lorem ipsu lorem ipsu lorem lorem lorem</p>
+						<h2
+							class="mb-4 text-3xl font-bold text-white dark:text-dark sm:text-4xl lg:text-5xl"
+						>
+							Lewis
+						</h2>
+						<p class="text-md font-medium text-secondary md:text-lg">
+							lorem ipsu lorem ipsu lorem ipsu lorem lorem lorem
+						</p>
 					</div>
 				</div>
 
 				<div class="w-full px-4">
 					<div class="flex flex-wrap items-center justify-center">
-						<a href="#" class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8">
+						<a
+							href="#"
+							class="mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
+						>
 							<img src="/dist/img/felipe.webp" />
 						</a>
 					</div>
@@ -302,39 +315,67 @@
 			</div>
 		</section>
 
-		<section id="contact" class="pt-36 pb-32 dark:bg-indigo-800">
+		<section id="contact" class="pb-32 pt-36 dark:bg-indigo-800">
 			<div class="container">
 				<div class="w-full px-4">
 					<div class="mx-auto mb-16 max-w-xl text-center">
 						<h4 class="mb-2 text-lg font-semibold text-primary">contact</h4>
-						<h2 class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
-						<p class="text-md font-medium text-secondary md:text-lg">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+						<h2
+							class="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl"
+						>
+							Hubungi Kami
+						</h2>
+						<p class="text-md font-medium text-secondary md:text-lg">
+							Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+						</p>
 					</div>
 				</div>
 
 				<form>
 					<div class="w-full lg:mx-auto lg:w-2/3">
 						<div class="mb-8 w-full px-4">
-							<label for="name" class="text-base font-bold text-primary">Nome</label>
-							<input type="text" id="name" class="w-full rounded-md bg-indigo-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"/>
+							<label for="name" class="text-base font-bold text-primary"
+								>Nome</label
+							>
+							<input
+								type="text"
+								id="name"
+								class="w-full rounded-md bg-indigo-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+							/>
 						</div>
 						<div class="mb-8 w-full px-4">
-							<label for="email" class="text-base font-bold text-primary">Email</label>
-							<input type="email" id="email" class="w-full rounded-md bg-indigo-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"/>
+							<label for="email" class="text-base font-bold text-primary"
+								>Email</label
+							>
+							<input
+								type="email"
+								id="email"
+								class="w-full rounded-md bg-indigo-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+							/>
 						</div>
 						<div class="mb-8 w-full px-4">
-							<label for="message" class="text-base font-bold text-primary">Mensagem</label>
-							<textarea type="email" id="email" class="h-32 w-full rounded-md bg-indigo-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"></textarea>
+							<label for="message" class="text-base font-bold text-primary"
+								>Mensagem</label
+							>
+							<textarea
+								type="email"
+								id="email"
+								class="h-32 w-full rounded-md bg-indigo-200 p-3 text-dark focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+							></textarea>
 						</div>
 						<div class="w-full px-4">
-							<button class="w-full rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg">Enviar</button>
+							<button
+								class="w-full rounded-full bg-primary px-8 py-3 text-base font-semibold text-white transition duration-500 hover:opacity-80 hover:shadow-lg"
+							>
+								Enviar
+							</button>
 						</div>
 					</div>
 				</form>
 			</div>
 		</section>
 
-		<footer class="bg-dark pt-24 pb-12">
+		<footer class="bg-dark pb-12 pt-24">
 			<div class="container">
 				<div class="flex flex-wrap">
 					<div class="mb-12 w-full px-4 font-medium text-indigo-300 md:w-1/3">
@@ -348,13 +389,25 @@
 						<h3 class="mb-5 text-xl font-semibold text-white">categoria</h3>
 						<ul class="text-indigo-300">
 							<li>
-								<a href="#" class="mb-3 inline-block text-base hover:text-primary">Lorem ipsum</a>
+								<a
+									href="#"
+									class="mb-3 inline-block text-base hover:text-primary"
+									>Lorem ipsum</a
+								>
 							</li>
 							<li>
-								<a href="#" class="mb-3 inline-block text-base hover:text-primary">Lorem ipsum</a>
+								<a
+									href="#"
+									class="mb-3 inline-block text-base hover:text-primary"
+									>Lorem ipsum</a
+								>
 							</li>
 							<li>
-								<a href="#" class="mb-3 inline-block text-base hover:text-primary">Lorem ipsum</a>
+								<a
+									href="#"
+									class="mb-3 inline-block text-base hover:text-primary"
+									>Lorem ipsum</a
+								>
 							</li>
 						</ul>
 					</div>
@@ -362,16 +415,32 @@
 						<h3 class="mb-5 text-xl font-semibold text-white">Link</h3>
 						<ul class="text-indigo-300">
 							<li>
-								<a href="#home" class="mb-3 inline-block text-base hover:text-primary">Home</a>
+								<a
+									href="#home"
+									class="mb-3 inline-block text-base hover:text-primary"
+									>Home</a
+								>
 							</li>
 							<li>
-								<a href="#about" class="mb-3 inline-block text-base hover:text-primary">About</a>
+								<a
+									href="#about"
+									class="mb-3 inline-block text-base hover:text-primary"
+									>About</a
+								>
 							</li>
 							<li>
-								<a href="#articles" class="mb-3 inline-block text-base hover:text-primary">Articles</a>
+								<a
+									href="#articles"
+									class="mb-3 inline-block text-base hover:text-primary"
+									>Articles</a
+								>
 							</li>
 							<li>
-								<a href="#contacts" class="mb-3 inline-block text-base hover:text-primary">Contacts</a>
+								<a
+									href="#contacts"
+									class="mb-3 inline-block text-base hover:text-primary"
+									>Contacts</a
+								>
 							</li>
 						</ul>
 					</div>
@@ -384,11 +453,17 @@
 							target="_blank"
 							class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-indigo-300 text-indigo-300 hover:border-primary hover:bg-primary hover:text-white"
 						>
-							<svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/200/svg">
+							<svg
+								role="img"
+								width="20"
+								class="fill-current"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/200/svg"
+							>
 								<title>Twitter</title>
 								<path
-                  d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-                />
+									d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+								/>
 							</svg>
 						</a>
 						<a
@@ -396,25 +471,45 @@
 							target="_blank"
 							class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-indigo-300 text-indigo-300 hover:border-primary hover:bg-primary hover:text-white"
 						>
-							<svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/200/svg">
+							<svg
+								role="img"
+								width="20"
+								class="fill-current"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/200/svg"
+							>
 								<title>Twitter</title>
 								<path
-								d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                />
+									d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+								/>
 							</svg>
 						</a>
 					</div>
 					<p class="text-center text-xs font-medium text-indigo-500">
-						Feito com <span class="text-pink-500">❤️</span> por <a href="https://github.com/felpsalvs" target="_blank" class="font-bold text-primary">Felipe Alves</a>, utilizando<a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500"> Tailwind CSS</a>.
+						Feito com <span class="text-pink-500">❤️</span> por
+						<a
+							href="https://github.com/felpsalvs"
+							target="_blank"
+							class="font-bold text-primary"
+							>Felipe Alves</a
+						>, utilizando<a
+							href="https://tailwindcss.com"
+							target="_blank"
+							class="font-bold text-sky-500"
+						>
+							Tailwind CSS</a
+						>.
 					</p>
 				</div>
 			</div>
 		</footer>
 
-		<a href="#home" class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse">
-			<span class="mt-2 block h-5 w-5 rotate-45 border-t-2 border-l-2"></span>
+		<a
+			href="#home"
+			class="fixed bottom-4 right-4 z-[9999] hidden h-14 w-14 items-center justify-center rounded-full bg-primary p-4 hover:animate-pulse"
+		>
+			<span class="mt-2 block h-5 w-5 rotate-45 border-l-2 border-t-2"></span>
 		</a>
-
 	</body>
 	<script src="./dist/js/main.js"></script>
 </html>
