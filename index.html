@@ -25,7 +25,9 @@
 			<div class="container">
 				<div class="relative flex items-center justify-between">
 					<div class="px-4">
-						<a href="#home" class="uppercase block py-6 text-lg font-bold text-primary"
+						<a
+							href="#home"
+							class="block py-6 text-lg font-bold uppercase text-primary"
 							>felipe alves</a
 						>
 					</div>
@@ -51,7 +53,7 @@
 							id="nav-menu"
 							class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-gray-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent"
 						>
-							<ul class="uppercase block lg:flex">
+							<ul class="block uppercase lg:flex">
 								<li class="group">
 									<a
 										href="#home"
@@ -147,11 +149,8 @@
 									viewBox="0 0 200 200"
 									xmlns="http://www.w3.org/2000/svg"
 								>
-									<path
-										fill="#4f46e5"
-										d="M47.4,-51C59.2,-35.6,65.1,-17.8,63.4,-1.7C61.7,14.5,52.6,28.9,40.8,36.6C28.9,44.2,14.5,45,-2,47C-18.4,49,-36.8,52.1,-45.4,44.5C-53.9,36.8,-52.5,18.4,-51.2,1.3C-49.9,-15.8,-48.7,-31.7,-40.2,-47.1C-31.7,-62.4,-15.8,-77.3,1,-78.3C17.8,-79.2,35.6,-66.3,47.4,-51Z"
-										transform="translate(100 100) scale(1.1)"
-									/>
+								<div id="canvas"></div>
+
 								</svg>
 							</span>
 						</div>
@@ -239,10 +238,7 @@
 			</div>
 		</section>
 
-		<section
-			id="portfolio"
-			class="bg-zinc-100 pb-16 pt-36 dark:bg-zinc-800"
-		>
+		<section id="portfolio" class="bg-zinc-100 pb-16 pt-36 dark:bg-zinc-800">
 			<div class="container">
 				<div class="w-full px-4">
 					<div class="mx-auto mb-16 max-w-xl text-center">
@@ -511,5 +507,19 @@
 			<span class="mt-2 block h-5 w-5 rotate-45 border-l-2 border-t-2"></span>
 		</a>
 	</body>
+	<script src="./dist/js/script.js"></script>
 	<script src="./dist/js/main.js"></script>
+	<script
+		async
+		src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"
+	></script>
+
+	<script type="importmap">
+		{
+			"imports": {
+				"three": "https://unpkg.com/three@<version>/build/three.module.js",
+				"three/addons/": "https://unpkg.com/three@<version>/examples/jsm/"
+			}
+		}
+	</script>
 </html>
