@@ -1,8 +1,8 @@
-# VanillaJS
+#Landing page with VanillaJS
 
-## Recursos e Ferramentas
+## Resources and Tools
 
-As aplicações nestes repositórios utilizam as seguintes tecnologias, recursos e ferramentas:
+Applications in these repositories use the following technologies, resources, and tools:
 
 - [VanillaJS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -10,30 +10,30 @@ As aplicações nestes repositórios utilizam as seguintes tecnologias, recursos
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
-## Estrutura do Repositório
+## Repository Structure
 
-Cada repositório segue uma estrutura semelhante, contendo os seguintes arquivos e diretórios principais:
+Each repository follows a similar structure, containing the following main files and directories:
 
-- `src/`: Diretório que contém os arquivos-fonte da aplicação.
-- `dist/`: Diretório que contém os arquivos de distribuição (versão otimizada para produção).
-- `index.html`: Arquivo HTML principal.
-- `styles.css`: Arquivo CSS personalizado para estilos adicionais.
-- `main.js`: Arquivo JavaScript que contém a lógica principal da aplicação.
-- `package.json`: Arquivo de configuração do projeto, contendo as dependências e scripts de desenvolvimento.
+- `src/`: Directory that contains the application's source files.
+- `dist/`: Directory that contains the distribution files (version optimized for production).
+- `index.html`: Main HTML file.
+- `styles.css`: Custom CSS file for additional styles.
+- `main.js`: JavaScript file that contains the main logic of the application.
+- `package.json`: Project configuration file, containing dependencies and development scripts.
 
-## Executando os Projetos
+## Executing the Projects
 
-Para executar qualquer um dos projetos presentes neste repositório, siga as instruções contidas em cada repositório individual. Geralmente, você precisará seguir os seguintes passos:
+To run any of the projects present in this repository, follow the instructions contained in each individual repository. Generally, you will need to follow the following steps:
 
-1. Clone o repositório para o seu ambiente local.
-2. Navegue até o diretório do projeto: `cd <nome-do-repositorio>`.
-3. Instale as dependências do projeto: `npm install`.
-4. Execute o projeto localmente: `npm run dev` ou `npm start`.
+1. Clone the repository to your local environment.
+2. Navigate to the project directory: `cd <repository-name>`.
+3. Install the project dependencies: `npm install`.
+4. Run the project locally: `npm run dev` or `npm start`.
 
-## Contribuindo
+## Contributing
 
-Sinta-se à vontade para explorar, clonar ou contribuir com os projetos presentes neste repositório.
+Feel free to explore, clone or contribute to the projects in this repository.
 
-## Licença
+## License
 
-Os projetos presentes neste repositório são licenciados sob a [MIT License](LICENSE).
+The projects present in this repository are licensed under the [MIT License](LICENSE).
