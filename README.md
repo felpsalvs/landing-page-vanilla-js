@@ -33,7 +33,3 @@ To run any of the projects present in this repository, follow the instructions c
 ## Contributing
 
 Feel free to explore, clone or contribute to the projects in this repository.
-
-## License
-
-The projects present in this repository are licensed under the [MIT License](LICENSE).
